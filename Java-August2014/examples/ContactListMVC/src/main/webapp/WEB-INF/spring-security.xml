@@ -1,0 +1,51 @@
+<!-- #1 - Spring Security XML namespace configuration -->
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+  http://www.springframework.org/schema/security
+  http://www.springframework.org/schema/security/spring-security-3.1.xsd">
+   
+    <beans:bean id="webexpressionHandler"           
+                class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler"/>
+    
+    <!-- #2 - Make sure we don’t need authorization to get to the login page -->
+    <http pattern="/spring/login" security="none" />
+    <!-- #3 - Authentication/login form and protected endpoint configuration --> 
+    <http auto-config="true" use-expressions="false">
+        <!-- #3a - Login via html form, use Spring to do the security check --> 
+        <!-- #3b - Use the login page at this endpoint --> 
+        <!-- #3c - Redirect here if login fails --> 
+        <form-login login-processing-url="/j_spring_security_check"
+                    login-page="/spring/login"
+                    authentication-failure-url="/spring/login?login_error=1"/>
+        <!-- #3d - Go back to login page when user logs out -->
+        <logout logout-success-url="/spring/login" />
+        <!-- #3e - Access to these endpoints require admin role -->
+        <intercept-url pattern="/spring/editContactForm" access="ROLE_ADMIN" />
+        <intercept-url pattern="/spring/displayNewContactForm" access="ROLE_ADMIN" />
+        <intercept-url pattern="/spring/addContact" access="ROLE_ADMIN" />
+        <intercept-url pattern="/spring/deleteContact" access="ROLE_ADMIN" />
+        <intercept-url pattern="/spring/updateContact" access="ROLE_ADMIN" />
+        <!-- #3f - Access to all other controller endpoints require user role -->
+        <intercept-url pattern="/spring/**" access="ROLE_USER" />
+    </http>
+    <!-- #4 - Authentication Manager config -->
+    <authentication-manager>
+        <!-- #4a - Authentication Provider - we’re using the JDBC service -->
+        <authentication-provider>
+            <!-- #4b - Tells Spring Security where to look for user information -->
+            <!--       We use the dataSource defined in spring-persistence.xml  --> 
+            <!--       and we give Spring Security the query to use to lookup   --> 
+            <!--       the user’s credentials (get the password from the users  --> 
+            <!--       tables and get the roles from the authorities table)     -->
+            <jdbc-user-service id="userService"
+                               data-source-ref="dataSource"
+                               users-by-username-query=
+          "select username, password, enabled from users where username=?"
+                               authorities-by-username-query=
+          "select username, authority from authorities where username=?" />
+        </authentication-provider>
+    </authentication-manager>
+</beans:beans>

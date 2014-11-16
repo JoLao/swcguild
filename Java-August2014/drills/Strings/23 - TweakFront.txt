@@ -1,0 +1,10 @@
+
+Given a string, return a version without the first 2 chars. Except keep the first char if it is 'a' and keep the second char if it is 'b'. The string may be any length.
+
+TweakFront("Hello") -> "llo"
+TweakFront("away") -> "aay"
+TweakFront("abed") -> "abed"
+
+public string TweakFront(string str) {
+
+}

@@ -1,0 +1,9 @@
+Given a string, return true if it ends in "ly". 
+
+EndsWithLy("oddly") -> true
+EndsWithLy("y") -> false
+EndsWithLy("oddy") -> false
+
+public boolean EndsWithLy(string str) { 
+
+}

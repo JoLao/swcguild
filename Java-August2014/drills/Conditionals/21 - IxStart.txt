@@ -1,0 +1,9 @@
+Return true if the given string begins with "*ix", the '*' can be anything, so "pix", "9ix" .. all count. 
+
+IxStart("mix snacks") -> true
+IxStart("pix snacks") -> true
+IxStart("piz snacks") -> false
+
+public boolean IxStart(string str) {
+
+}

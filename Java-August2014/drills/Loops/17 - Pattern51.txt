@@ -1,0 +1,9 @@
+Given an array of ints, return true if it contains a 2, 7, 1 pattern -- a value, followed by the value plus 5, followed by the value minus 1.
+
+Pattern51({1, 2, 7, 1}) -> true
+Pattern51({1, 2, 8, 1}) -> false
+Pattern51({2, 7, 1}) -> true
+
+public boolean Pattern51(int[] numbers) {
+
+}

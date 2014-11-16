@@ -1,0 +1,7 @@
+Return an int array length n containing the first n digits of pi.
+
+MakePi(3) -> {3, 1, 4}
+
+public int[] MakePi(int n) {
+
+}

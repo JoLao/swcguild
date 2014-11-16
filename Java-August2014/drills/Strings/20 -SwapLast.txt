@@ -1,0 +1,9 @@
+Given a string of any length, return a new string where the last 2 chars, if present, are swapped, so "coding" yields "codign". 
+
+SwapLast("coding") -> "codign"
+SwapLast("cat") -> "cta"
+SwapLast("ab") -> "ba"
+
+public string SwapLast(string str) {
+
+}

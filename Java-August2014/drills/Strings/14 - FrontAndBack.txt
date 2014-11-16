@@ -1,0 +1,9 @@
+Given a string and an int n, return a string made of the first and last n chars from the string. The string length will be at least n. 
+
+FrontAndBack("Hello", 2) -> "Helo"
+FrontAndBack("Chocolate", 3) -> "Choate"
+FrontAndBack("Chocolate", 1) -> "Ce"
+
+public string FrontAndBack(string str, int n) {
+
+}
