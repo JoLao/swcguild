@@ -1,0 +1,81 @@
+package com.swcguild.datastructures;
+
+import java.util.Iterator;
+
+public class ArrayStack implements Stack {
+
+    private static final int DEFAULT_INITIAL_SIZE = 4;
+    private Object[] items;
+    private int      numItems;
+
+    public ArrayStack() {
+        this(DEFAULT_INITIAL_SIZE);
+    }
+    
+    public ArrayStack(int size) {        
+        items = new Object[size];
+    }        
+    
+    @Override
+    public boolean isEmpty() {
+        return numItems == 0;
+    }
+
+    @Override
+    public int size() {
+        return numItems;
+    }
+
+    @Override
+    public void push(Object item) {
+        if (numItems == items.length) {
+            resize(2 * items.length);
+        }
+        items[numItems++] = item;
+    }
+
+    @Override
+    public Object pop() {
+        if (numItems == 0) {
+            return null;
+        }
+        
+        Object item = items[--numItems];        
+        items[numItems] = null;
+        if (numItems > 0 && numItems == items.length / 4) {
+            resize(items.length / 2);
+        }
+        
+        return item;
+    }
+    
+    private void resize(int newSize) {
+        Object[] temp = items;
+        items = new Object[newSize];
+        
+        for (int i = 0; i < numItems; i++) {
+            items[i] = temp[i];
+        }
+        
+    }
+
+    @Override
+    public Iterator iterator() {
+        return new ReverseArrayIterator();
+    }
+    
+    private class ReverseArrayIterator implements Iterator {
+        private int i = numItems;
+        
+        @Override
+        public boolean hasNext() {
+            return i > 0;
+        }
+
+        @Override
+        public Object next() {
+            return items[--i];
+        }
+        
+    }
+}

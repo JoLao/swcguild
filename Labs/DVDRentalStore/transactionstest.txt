@@ -1,0 +1,11 @@
+private int       accountNumber;
+    private LocalDate checkOutDate;
+    private int       dvdNumber;
+    private LocalDate dateDue;
+    private LocalDate dateReturned;
+    private double    rentalFee;
+    private double    lateFees;    
+    private double    balance;
+1::2014-10-02::11::2014-10-04:: ::6.45::9.00::15.45
+1::2014-10-04::5::2014-10-06:: ::3.75::7.00::10.75
+

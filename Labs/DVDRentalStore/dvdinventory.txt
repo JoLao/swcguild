@@ -1,0 +1,42 @@
+1::BluRay::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+2::BluRay::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+3::BluRay::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+4::BluRay::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+5::BluRay::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+6::DVD::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+7::DVD::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+8::DVD::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+9::DVD::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+10::DVD::Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done:: :: 
+11::DVD::Carrie::1978-06-01::R::Stephen King::Universal::Scary##Box office:: :: 
+12::BluRay::Carrie::2010-10-31::R::Jonathan Smith::Fox::Scary:: :: 
+13::DVD::Carrie::2010-10-31::R::Jonathan Smith::Fox::Scary:: :: 
+14::DVD::Carrie::2010-10-31::R::Jonathan Smith::Fox::Scary:: :: 
+15::DVD::Ghost::1985-12-01::R::John Doe::Paramount::Good Movie##Loved it:: :: 
+16::DVD::Ghost::1985-12-01::R::John Doe::Paramount::Good Movie##Loved it:: :: 
+17::DVD::Ghost::1985-12-01::R::John Doe::Paramount::Good Movie##Loved it:: :: 
+18::DVD::Grease::1978-06-01::PG13::Randal Kleiser::Paramount::Musical Comedy##Entertaining##Fun:: :: 
+19::BluRay::King Kong::2006-01-20::PG13::Peter Jackson::Paramount::Boring##Long long movie:: :: 
+20::BluRay::King Kong::2006-01-20::PG13::Peter Jackson::Paramount::Boring##Long long movie:: :: 
+21::DVD::King Kong::2006-01-20::PG13::Peter Jackson::Paramount::Boring##Long long movie:: :: 
+22::DVD::King Kong::2006-01-20::PG13::Peter Jackson::Paramount::Boring##Long long movie:: :: 
+23::BluRay::Terminator::1985-09-23::R::James Cameron::Universal::Good movie:: :: 
+24::BluRay::Terminator::1985-09-23::R::James Cameron::Universal::Good movie:: :: 
+25::DVD::Terminator::1985-09-23::R::James Cameron::Universal::Good movie:: :: 
+26::DVD::Terminator::1985-09-23::R::James Cameron::Universal::Good movie:: :: 
+27::DVD::Terminator::1985-09-23::R::James Cameron::Universal::Good movie:: :: 
+28::DVD::Terminator 2::1989-04-20::R::James Cameron::Universal::Better than the first one:: :: 
+29::BluRay::The Lord Of The Rings (Fellowship Of The Ring)::2001-12-10::PG13::Peter Jackson::Paramount::Very good movie!::2014-10-04::1 
+30::DVD::The Lord Of The Rings (Fellowship Of The Ring)::2001-12-10::PG13::Peter Jackson::Paramount::Very good movie!:: :: 
+31::BluRay::The Lord Of The Rings (The Return Of The King)::2003-12-14::PG13::Peter Jackson::Paramount::Best among the 3:: :: 
+32::DVD::The Lord Of The Rings (The Return Of The King)::2003-12-14::PG13::Peter Jackson::Paramount::Best among the 3:: :: 
+33::BluRay::The Lord Of The Rings (The Two Towers)::2002-12-20::PG13::Peter Jackson::Paramount::Good movie!:: :: 
+34::DVD::The Lord Of The Rings (The Two Towers)::2002-12-20::PG13::Peter Jackson::Paramount::Good movie!:: :: 
+35::DVD::Thor::2010-08-05::PG::Bryan Singer::Fox::Good movie!:: :: 
+36::DVD::Titanic::1998-07-15::R::James Cameron::Fox::Beautifully made:: :: 
+37::BluRay::Toy Story::1998-08-10::G::John Lasseter::Pixar::Unique & fun movie to watch:: :: 
+38::BluRay::Toy Story 2::1999-09-12::G::John Lasseter::Pixar::Entertaining:: :: 
+39::BluRay::Toy Story 3::2010-07-20::G::John Lasseter::Pixar::Creative!##Unique:: :: 
+40::DVD::Up::2009-08-11::G::John Lasseter::Pixar::Fun:: :: 
+41::BluRay::Godzilla::2014-09-16::PG13::Gareth Edwards::Warner Bros. Pictures::Four Stars::2014-10-04::2
+42::DVD::Godzilla::2014-09-16::PG13::Gareth Edwards::Warner Bros. Pictures::Four Stars::2014-10-02::1 

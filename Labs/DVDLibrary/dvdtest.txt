@@ -1,0 +1,3 @@
+Up::2009-07-09::R::David Lassetter::Pixar::Four Stars
+Toy Story 2::2002-07-10::R::David Lassetter::Pixar::Four Stars
+Toy Story 3::2010-07-09::R::David Lassetter::Pixar::Four Stars

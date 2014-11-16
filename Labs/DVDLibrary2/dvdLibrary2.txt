@@ -1,0 +1,17 @@
+Grease::1978-06-01::PG13::Randal Kleiser::Paramount::Musical Comedy##Entertaining##Fun
+The Lord Of The Rings Trilogy::2001-12-10::R::Peter Jackson::MGM::Two Thumbs Up!##5 start rating##Must see movies
+Terminator::1985-09-23::R::James Cameron::Universal::Good movie
+The Lord Of The Rings (The Two Towers)::2002-12-20::PG13::Peter Jackson::Paramount::Good movie!
+Toy Story 2::1999-09-12::G::Peter Lasseter::Pixar::Entertaining
+Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done
+Titanic::1998-07-15::R::James Cameron::Fox::Beautifully made
+Toy Story 3::2010-07-20::G::Peter Lasseter::Pixar::Creative!##Unique
+Thor::2010-08-05::PG::Bryan Singer::Fox::Good movie!
+Ghost::1985-12-01::R::John Doe::Paramount::Good Movie##Loved it
+The Lord Of The Rings (The Return Of The King)::2003-12-14::PG13::Peter Jackson::Paramount::Best among the 3
+Toy Story::1998-08-10::G::Peter Lasseter::Pixar::Unique & fun movie to watch
+King Kong::2006-01-20::PG13::Peter Jackson::Paramount::Boring##Long long movie
+Carrie::1978-06-01::R::Stephen King::Universal::Scary##Box office
+Terminator 2::1989-04-20::R::James Cameron::Universal::Better than the first one
+Up::2009-08-11::G::Peter Lasseter::Pixar::Fun
+The Lord Of The Rings (Fellowship Of The Ring)::2001-12-10::PG13::Peter Jackson::Paramount::Very good movie!

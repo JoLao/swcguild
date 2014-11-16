@@ -1,0 +1,4 @@
+Snickers::0.75::9
+Reeses::0.85::9
+Skittles::0.65::10
+Doritos::1.0::9

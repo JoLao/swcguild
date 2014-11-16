@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/mvc
+                           http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                           http://www.springframework.org/schema/tx 
+                           http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd"> 
+
+    <!-- Bean definitions go here -->
+    <tx:annotation-driven/>
+    
+    <context:component-scan base-package="com.swcguild.myscarletexpo" />
+
+    <bean id="dataSource"
+          class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url"
+                  value="jdbc:mysql://localhost:3306/MyScarletExpo_Test"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+        <property name="initialSize" value="5"/>
+        <property name="maxActive" value="10"/>
+    </bean>
+    
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    
+    <bean id="jdbcTemplate"
+          class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>          
+    </bean>
+        
+    <!-- #3 Define the DAOs -->
+    <bean id="productDao"
+          class="com.swcguild.myscarletexpo.dao.implementation.ProductDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+    
+    <bean id="userDao"
+          class="com.swcguild.myscarletexpo.dao.implementation.UserDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />      
+    </bean>
+    
+    <bean id="categoryDao"
+          class="com.swcguild.myscarletexpo.dao.implementation.CategoryDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+    
+    <bean id="productItemDao"
+          class="com.swcguild.myscarletexpo.dao.implementation.ProductItemDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+    
+    <bean id="noteDao"
+          class="com.swcguild.myscarletexpo.dao.implementation.NoteDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>        
+    
+    <bean id="eventDao"
+          class="com.swcguild.myscarletexpo.dao.implementation.EventDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+    
+    <bean id="chartsDao"
+          class="com.swcguild.myscarletexpo.dao.implementation.ChartsDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+    
+    <bean id="productViewDao" 
+          class="com.swcguild.myscarletexpo.dao.implementation.ProductViewDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+
+    <bean id="serviceLayer"
+        class="com.swcguild.myscarletexpo.dao.implementation.ScarletExpoDaoImpl">
+        <property name="productDao" ref="productDao" />
+        <property name="userDao" ref="userDao" />
+        <property name="categoryDao" ref="categoryDao" />
+        <property name="productItemDao" ref="productItemDao" />
+        <property name="noteDao" ref="noteDao" />
+        <property name="eventDao" ref="eventDao" />
+        <property name="chartsDao" ref="chartsDao" />
+        <property name="productViewDao" ref="productViewDao" />
+    </bean>
+
+</beans>

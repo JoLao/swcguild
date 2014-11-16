@@ -1,0 +1,19 @@
+Avatar::2010-08-05::R::James Cameron::Paramount::Two Thumbs Up!##Must see movie##Graphics nicely done
+Carrie::1978-06-01::R::Stephen King::Universal::Scary##Box office
+Carrie::2010-10-31::R::Jonathan Smith::Fox::Scary
+Ghost::1985-12-01::R::John Doe::Paramount::Good Movie##Loved it
+Grease::1978-06-01::PG13::Randal Kleiser::Paramount::Musical Comedy##Entertaining##Fun
+King Kong::2006-01-20::PG13::Peter Jackson::Paramount::Boring##Long long movie
+Terminator::1985-09-23::R::James Cameron::Universal::Good movie
+Terminator 2::1989-04-20::R::James Cameron::Universal::Better than the first one
+The Lord Of The Rings (Fellowship Of The Ring)::2001-12-10::PG13::Peter Jackson::Paramount::Very good movie!
+The Lord Of The Rings (The Return Of The King)::2003-12-14::PG13::Peter Jackson::Paramount::Best among the 3
+The Lord Of The Rings (The Two Towers)::2002-12-20::PG13::Peter Jackson::Paramount::Good movie!
+The Lord Of The Rings Trilogy::2001-12-10::R::Peter Jackson::MGM::Two Thumbs Up!##5 start rating##Must see movies
+Thor::2010-08-05::PG::Bryan Singer::Fox::Good movie!
+Titanic::1998-07-15::R::James Cameron::Fox::Beautifully made
+Toy Story::1998-08-10::G::Peter Lasseter::Pixar::Unique & fun movie to watch
+Toy Story 2::1999-09-12::G::Peter Lasseter::Pixar::Entertaining
+Toy Story 3::2010-07-20::G::Peter Lasseter::Pixar::Creative!##Unique
+Up::2009-08-11::G::Peter Lasseter::Pixar::Fun
+

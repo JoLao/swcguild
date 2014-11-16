@@ -1,0 +1,7 @@
+Atkinson::Sally::384 Palisades Ave::Jersey City::NJ::07307
+Max::Klum::1928 Park Ave::New York::NY::10293
+Klum::Jake::902 Park Ave::New York::NY::10394
+Klum::Heidi::145 Central Park West::New York::NY::12948
+Lao::Jo::401 S Main St::Akron::OH::44311
+Wheat::Sam::300 Malibu Drive::Los Angeles::CA::90383
+Wheat::Sheila::100 Main St::Rochester::NY::10283

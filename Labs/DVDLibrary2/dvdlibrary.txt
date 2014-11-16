@@ -1,0 +1,4 @@
+Grease::1979-06-15::PG13::Sally Johnson::Paramount::Musical Comedy##Entertaining##Fun
+Ghost::1985-12-01::R::John Doe::Paramount::Good Movie##Loved it
+The Lord Of The Rings Trilogy::2001-12-10::R::Peter Jackson::MGM::Two Thumbs Up!##5 start rating##Must see movies
+King Kong::2006-01-20::PG13::Peter Jackson::Paramount::Boring##Long long movie

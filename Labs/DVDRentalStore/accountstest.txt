@@ -1,0 +1,7 @@
+1::atkinson::Sally Mae Atkinson::384 Palisades Ave::Jersey City::NJ::07307::201-364-3847::smae@gmail.com::DELINQUENT
+2::mklum::Klum Max::1928 Park Ave::New York::NY::10293::212-374-3847::mklum@msn.com::GOOD
+3::jklum::Jake Klum::902 Park Ave::New York::NY::10394::212-384-2837::jklum123@yahoo.com::GOOD
+4::hklum::Heidi Klum::145 Central Park West::New York::NY::12948::212-374-4847::hklum@gmail.com::GOOD
+5::jlao::Jo Lao::401 S Main St::Akron::OH::44311::201-374-3823::jolao123@msn.com::GOOD
+6::swheat1::Sam Wheat::300 Malibu Drive::Los Angeles::CA::90383::928-487-1837::swheat@gmail.com::GOOD
+7::swheat2::Sheila Wheat::100 Main St::Rochester::NY::10283::917-283-2938::sheilaw@comcast.net::GOOD

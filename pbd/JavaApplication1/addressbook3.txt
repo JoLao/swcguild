@@ -1,0 +1,5 @@
+Bill Gates 555-123-4567 1_Microsft_Way_Redmond_WA bill.gates@msn.com
+John Smith 203-345-9876 100_S_Main_St_Akron_OH john.smith@gmail.com
+Mary Anderson 402-182-3948 50_Central_Ave_Jersey_City_NJ mary.anderson@yahoo.com
+Deniece Richards 234-888-8888 1000_Beverly_Hills_Drive_CA deniece.richards@msn.com
+Jessica Alba 222-273-4847 2000_Beverly_Hills_Drive_CA jessical.alba@famous.com
